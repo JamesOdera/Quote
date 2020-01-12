@@ -9,10 +9,5 @@ import { Quote } from './quote';
 export class AppComponent {
   title = 'Quotes';
 
-  quotes: Quote [] =  [
-     {id:1,name:'"Variety is the spice of life"'},
-     {id:2,name:'"buy cookies"'},
-     {id:3,name:'"get a new phones"'},
-    ];
   }
 
