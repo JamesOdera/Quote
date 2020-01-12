@@ -20,6 +20,18 @@
                 <p>Description required</p>
             </div>
         </div>
+
+        <!--add name of the user-->
+        <div class="form-group">
+
+            <label for="Name">Your Name</label>
+            <input class="form-control" id="Name" [(ngModel)]="newQuote.Name" name="Name" #Name="ngModel" required>
+            <div [hidden]="Name.valid || Name.pristine" class="alert alert-danger">
+                <p>Name Required</p>
+            </div>
+
+        </div>
+        <!--add-->
         <div class="form-group">
             <label for="complete">Completion</label>
             <input type='date' id="complete" [(ngModel)]="newQuote.completeDate" name="completeDate" #completeDate='ngModel' required>
