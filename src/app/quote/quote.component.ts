@@ -9,10 +9,16 @@ import { Quote } from '../quote';
 export class QuoteComponent implements OnInit {
 
   quotes: Quote [] =  [
-    {id:1,name:'"Variety is the spice of life"',description:'hooooooooooo'},
-    {id:2,name:'"buy cookies"',description:'hiiiiiiiiiii'},
-    {id:3,name:'"get a new phones"',description:'seeeeeeeeeeee'},
+
+    new Quote(1, '"Variety is the spice of life"', 'hooooooooooo'),
+    new Quote(2,'"buy cookies"','hiiiiiiiiiii'),
+    new Quote(3,'Get new Phone Case','seeeeeeeeeeee'),
+
    ];
+
+   toggleDetails(index){
+    this.quotes[index].showDescription = !this.quotes[index].showDescription;
+  }
 
   constructor() { }
 
