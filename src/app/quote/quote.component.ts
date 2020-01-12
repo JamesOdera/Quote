@@ -10,9 +10,10 @@ export class QuoteComponent implements OnInit {
 
   quotes: Quote [] =  [
 
-    new Quote(1, '"Variety is the spice of life"', 'hooooooooooo','James',new Date(2020,0,1)),
-    new Quote(2,'"buy cookies"','hiiiiiiiiiii','James',new Date(2019,8,14)),
-    new Quote(3,'Get new Phone Case','seeeeeeeeeeee','James',new Date(2020,4,11)),
+    new Quote(1,'"variety is the spice of life"','Vybz Kartel.','James Odera',new Date(2020,0,9)),
+    new Quote(2,'"The greatest glory in living lies not in never falling, but in rising every time we fall."','Nelson Mandela','James Odera',new Date(2018,0,6)),
+    new Quote(3,'"If life were predictable it would cease to be life, and be without flavor."','Eleanor Roosvelt','James Odera',new Date(2020,5,7)),
+    new Quote(4,'"Life is what happens when you\'re busy making other plans."', 'John Lennon','James Odera',new Date(2018,3,6)),
 
    ];
 
