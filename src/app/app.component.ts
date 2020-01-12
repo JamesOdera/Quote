@@ -1,0 +1,15 @@
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
+})
+export class AppComponent {
+  title = 'Quotes';
+
+  quotes: string [];
+  constructor(){
+  this.quotes = ['"Variety is the spice of life"','"buy cookies"','"get a new phones"']
+}
+}
