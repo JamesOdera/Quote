@@ -52,7 +52,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 [![codebeat badge](https://codebeat.co/badges/1eccc200-144d-44db-b5b2-760c6fa3a311)](https://codebeat.co/projects/github-com-jamesodera-quotes-master)
 
-Copyright <2020>
+Copyright (c) [2020] [James Odera]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
