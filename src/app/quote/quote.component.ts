@@ -10,9 +10,9 @@ export class QuoteComponent implements OnInit {
 
   quotes: Quote [] =  [
 
-    new Quote(1, '"Variety is the spice of life"', 'hooooooooooo'),
-    new Quote(2,'"buy cookies"','hiiiiiiiiiii'),
-    new Quote(3,'Get new Phone Case','seeeeeeeeeeee'),
+    new Quote(1, '"Variety is the spice of life"', 'hooooooooooo',new Date(2020,0,1)),
+    new Quote(2,'"buy cookies"','hiiiiiiiiiii',new Date(2019,8,14)),
+    new Quote(3,'Get new Phone Case','seeeeeeeeeeee',new Date(2020,4,11)),
 
    ];
 
