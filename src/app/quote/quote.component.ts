@@ -9,9 +9,9 @@ import { Quote } from '../quote';
 export class QuoteComponent implements OnInit {
 
   quotes: Quote [] =  [
-    {id:1,name:'"Variety is the spice of life"'},
-    {id:2,name:'"buy cookies"'},
-    {id:3,name:'"get a new phones"'},
+    {id:1,name:'"Variety is the spice of life"',description:'hooooooooooo'},
+    {id:2,name:'"buy cookies"',description:'hiiiiiiiiiii'},
+    {id:3,name:'"get a new phones"',description:'seeeeeeeeeeee'},
    ];
 
   constructor() { }
