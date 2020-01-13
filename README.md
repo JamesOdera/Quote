@@ -41,7 +41,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## Installation
 # Cloning
 - Make sure you have all the Requirements or running angular apps installed such as node,npm,
-- Clone the project into your machine from https://github.com/Imma7/Quotes.git 
+- Clone the project into your machine from https://github.com/JamesOdera/Quote.git
 - Run ng serve for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you  change any of the source files.'''
 
 
