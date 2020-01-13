@@ -1,4 +1,4 @@
-## Auther
+## Author
 James Odera
 
 # Quotes
